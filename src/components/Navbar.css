@@ -1,0 +1,32 @@
+nav {
+  background-color: #ddefff;
+}
+.max_width {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.nav_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.nav_content h3 {
+  font-size: 1.5rem;
+}
+.nav_content > ul {
+  display: flex;
+  align-items: center;
+}
+.nav_content > ul > li {
+  margin: 0 1rem;
+}
+
+.nav_content > ul > li > a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
